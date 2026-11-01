@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CourtVision">
+  <rect width="512" height="512" rx="112" fill="#0a0f0a"/>
+  <rect x="70" y="70" width="372" height="372" rx="40" fill="none" stroke="#c6ff3d" stroke-width="14"/>
+  <line x1="256" y1="70" x2="256" y2="442" stroke="#c6ff3d" stroke-width="10" opacity="0.55"/>
+  <line x1="70" y1="256" x2="442" y2="256" stroke="#c6ff3d" stroke-width="14"/>
+  <line x1="140" y1="150" x2="372" y2="150" stroke="#c6ff3d" stroke-width="10" opacity="0.55"/>
+  <line x1="140" y1="362" x2="372" y2="362" stroke="#c6ff3d" stroke-width="10" opacity="0.55"/>
+  <circle cx="330" cy="182" r="26" fill="#c6ff3d"/>
+</svg>

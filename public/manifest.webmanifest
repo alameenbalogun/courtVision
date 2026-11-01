@@ -1,0 +1,31 @@
+{
+  "name": "CourtVision — tennis replay and line-call assistance",
+  "short_name": "CourtVision",
+  "description": "Record a tennis match, save the last 20 seconds after a disputed point, and review footage frame by frame. AI line calls are experimental estimates.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080b09",
+  "theme_color": "#080b09",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

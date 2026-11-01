@@ -1,0 +1,57 @@
+{
+  "_note": "Single source of truth for detector, tracker and decision thresholds. Imported by lib/analysis.ts and cv/*.py. Every value is provisional: replace with values measured by cv/evaluate.py on a labelled set before making accuracy claims.",
+  "detection": {
+    "hueMin": 20,
+    "hueMax": 55,
+    "satMin": 90,
+    "valMin": 110,
+    "minAreaPx": 10,
+    "minAreaScale": 0.000004,
+    "maxAreaScale": 0.002,
+    "minAspect": 0.3,
+    "maxAspect": 3.2,
+    "minFill": 0.2,
+    "maxCandidates": 4
+  },
+  "tracking": {
+    "gatePx": 60,
+    "gateGrowthPerGap": 0.35,
+    "maxGap": 3,
+    "minSamples": 3,
+    "maxTracks": 12
+  },
+  "bounce": {
+    "smoothWindow": 2,
+    "prominenceWindow": 6,
+    "minProminenceScale": 0.006,
+    "minSeparationMs": 600,
+    "maxPerTrack": 2,
+    "groundZoneY": 0.5,
+    "groundRiseScale": 0.005
+  },
+  "uncertainty": {
+    "heightM": 0.35,
+    "calibrationNoiseMinPx": 2.5,
+    "detectionNoiseSpanPx": 24,
+    "detectionNoiseBasePx": 4,
+    "geometricCapM": 4.0,
+    "uncertainSigmaM": 0.5
+  },
+  "decision": {
+    "sigmaMultiplier": 2,
+    "sigmaAbstainM": 1.0,
+    "plausibleMarginM": 2.0
+  },
+  "cameraMotion": {
+    "sampleWidth": 160,
+    "searchRadiusPx": 6,
+    "driftAbortPx": 6,
+    "eventDriftPx": 2.5,
+    "gridStep": 20
+  },
+  "evidence": {
+    "offsetsMs": [-320, -140, 0, 180],
+    "maxEvents": 4,
+    "thumbWidth": 360
+  }
+}
